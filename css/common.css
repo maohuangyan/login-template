@@ -1,0 +1,100 @@
+body{
+  position: relative;
+  background: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533046820085&di=0786a2f713a47bea1a292dd9bf8f79b7&imgtype=0&src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201502%2F28%2F212658v9xuqch3z1qm1h9c.png');
+  background-repeat: no-repeat;
+}
+.login{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 5% auto;
+  width: 410px;
+  height: 320px;
+  border-radius: 18px;
+  background: #23232e
+}
+.login-header{
+  position: relative;
+  border-radius: 18px;
+  background: #23232e;
+  padding: 30px;
+}
+.login-body{
+  background: #2b2b36;
+  padding: 30px 60px 40px;
+  height: 100%;
+  border-radius: 0 0 18px 18px
+}
+.user-info{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #9199aa;
+  margin: 0 auto;
+}
+.user-info img{
+  width: 100%;
+  border-radius: 50%;
+}
+.close{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  color: #fff;
+}
+.close:hover{
+  color: aliceblue
+}
+.close:active{
+  color: aliceblue
+}
+.group{
+  border-bottom: solid 1px #9199aa;
+  margin-top: 10px;
+}
+input{
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 10px 0;
+  color: #9199aa;
+}
+input:focus{
+  background: none;
+  border: none;
+  outline: none
+}
+input::-webkit-input-placeholder{ 
+  color:#9199aa;
+  font-size: 18px;
+  font-weight: 100;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+}
+.btn .confire,
+.btn .fail{
+  transition: all 0.5s;
+  cursor: pointer;
+  outline: none;
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  background: #3ea751;
+  margin: 20px 5px;
+}
+.btn .fail{
+  background: #9199aa;
+}
+.btn .fail:hover{
+  background: #797d86;
+}
+.btn .confire:hover{
+  background: #ff4c50;
+}
